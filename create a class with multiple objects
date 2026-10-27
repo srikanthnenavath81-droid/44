@@ -1,0 +1,17 @@
+class bank:
+  name="union"
+  established="1947" 
+  def read(self):
+    established="1978"
+    print(established)
+    print("banking")
+  def exchange(self):
+    print("exchange")
+b1=bank()    
+b2=bank() 
+b3=bank()
+print(b1.name)
+print(b1.established)
+
+b1.read()
+b1.exchange()
